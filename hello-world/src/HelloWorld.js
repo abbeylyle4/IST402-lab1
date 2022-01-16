@@ -1,13 +1,14 @@
+// Litelement is imported
 import { html, css, LitElement } from 'lit';
 
-export class HelloWorld extends LitElement {
+export class HelloWorld extends LitElement { //I think this creates a new class called helloworld from litelement
   static get styles() {
     return css`
       :host {
         display: block;
         padding: 25px;
         color: var(--hello-world-text-color, #000);
-      }
+      } //created the css style
     `;
   }
 
